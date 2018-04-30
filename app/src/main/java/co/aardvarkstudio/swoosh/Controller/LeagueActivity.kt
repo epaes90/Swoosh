@@ -52,7 +52,6 @@ class LeagueActivity : BaseActivity() {
         womensLeagueBtn.isChecked = false
         mensLeagueBtn.isChecked = false
 
-
         player.league = "co-ed"
     }
 }
