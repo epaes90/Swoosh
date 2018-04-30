@@ -12,6 +12,7 @@ import kotlinx.android.synthetic.main.activity_skill.*
 
 class SkillActivity : AppCompatActivity() {
 
+
     lateinit var player : Player
 
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -16,5 +16,6 @@ class FinishActivity : BaseActivity() {
         val player = intent.getParcelableExtra<Player>(EXTRA_PLAYER)
 
         searchLeaguesTxt.text = "Looking for ${player.league} ${player.skill} league near you..."
+
     }
 }
